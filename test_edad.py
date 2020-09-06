@@ -1,5 +1,5 @@
 import pytest
-from condicionales import
+from condicionales import edad_futura
 
 def test_edad_futura():
     assert edad_futura(10,2010) == 70
