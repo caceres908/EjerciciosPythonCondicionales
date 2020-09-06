@@ -3,7 +3,7 @@ def edad_futura(edadActual, añoActual):
         if añoActual > 0:
             años = 2070 - añoActual
             nuevaEdad = edadActual+ años
-            return edad_futura
+            return nuevaEdad
         else:
             print("El año ingresado es erroneo ya que este es negativo")
     else:

@@ -7,7 +7,7 @@ def test_edad_futura():
 @pytest.mark.parametrize(
     "imput_a, imput_b, expected",
     [
-        (10,2010,7),
+        (10,2010,70),
         (20,2020,70),
         (edad_futura(10,2010),2070,70)
         ]
