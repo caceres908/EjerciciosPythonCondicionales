@@ -1,7 +1,8 @@
-import pytest
-from rango import rangos
+import unittest
+import rango
 
-def test_rangos():
-    assert rangos(2,21,3) == 7
- 
-
+class Testrango(unittest.TestCase):
+    def test_multiplos(self):
+        rango.multiplos(2,21,3)
+if __name__ == "__main__":
+    unittest.main()

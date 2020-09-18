@@ -1,9 +1,10 @@
-def rangos(num1, num2, num):
-    cont = 0
+def multiplos(num1, num2, num):
     if num1 < num2:
-        for i in range(num1, num2):
+        cont = 0
+        for i in range(num1, num2+1):
             if i % num == 0:
-                cont += cont
-                print(cont)
+                cont = cont + 1
+        print(cont)
     else:
-        print("el primer numero debe ser menor al segundo numero")
+        print("El primer numero debe ser menor al segundo numero")
+
